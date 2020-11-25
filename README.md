@@ -29,6 +29,7 @@ The following strategies might be used to improve the models:
 * collect more spoiler texts (e.g. IMDB [spoiler dataset](https://www.kaggle.com/rmisra/imdb-spoiler-dataset)
 * downsample data based on similarity of reviews/use unsupervised classification to group reviews
 * genre specific spoiler detection
+* combine text and metadata
 
 ## Table of Contents
 * __data_preparation.ipynb__: Jupyter lab notebook containing infromation on combining data from different tables, some basic word frequency analyses and unsupervised classification of a random subset of reviews
