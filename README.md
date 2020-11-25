@@ -15,7 +15,7 @@ The dataset contains 1.3 million reviews of about 25,000 different books by 19,0
 There are several challenges associated with this data set:  
 * while all reviews are supposed to be in english, we found that a low percentage also contains or is completely written in other languages
 * with only 6% spoiler reviews, the dataset is imbalanced
-* reviews are very heterogeneous in terms of word composition
+* reviews are very heterogeneous in terms of word composition and length
 * a single spoiler sentence in a review spoils the whole review --> within the spoiler reviews only 25% of the sentences are labeled as spoilers on average
 * what constitutes a spoiler might be very book/content-specific
 
@@ -26,7 +26,7 @@ Besides count and tfidf vectorization we also tested word vectors for classifica
 Due to limited time we could only start text classification using a recurrent neural network. While we were able to set up a RNN, this model overfits on training data and did not yield better results. 
 
 ## Table of Contents
-* __data_preparation.ipynb__: Jupyter lab notebook containing infromation on combining data from different tables and some basic word frequency analyses
+* __data_preparation.ipynb__: Jupyter lab notebook containing infromation on combining data from different tables, some basic word frequency analyses and unsupervised classification of a random subset of reviews
 * __text_features_and_processing.ipynb__: Jupyter lab notebook containing information on tetx processing and analyses of text features
 * __fasttext.ipnyb__: text classification using fasttext and computing word vectors based on the book descriptions and book review texts
 *__sentence_classification.ipynb__: Classification of single sentences 
