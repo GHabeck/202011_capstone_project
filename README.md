@@ -18,4 +18,5 @@ The dataset contains 1.3 million reviews of about 25,000 different books by 19,0
 * __fasttext.ipnyb__: text classification using fasttext and computing word vectors based on the book descriptions and book review texts
 *__sentence_classification.ipynb__: Classification of single sentences 
 * __word_embedding.ipnyb__: text classification using word vectors and different classification algorithms for crime and 
+*__RNN_with_word2vec_embedding__: classification of sentences from spoiler reviews using an RNN and word2vec embedding vectors
 
