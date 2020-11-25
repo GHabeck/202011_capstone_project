@@ -25,6 +25,11 @@ Besides count and tfidf vectorization we also tested word vectors for classifica
 
 Due to limited time we could only start text classification using a recurrent neural network. While we were able to set up a RNN, this model overfits on training data and did not yield better results. 
 
+The following strategies might be used to improve the models:
+* collect more spoiler texts (e.g. IMDB [spoiler dataset](https://www.kaggle.com/rmisra/imdb-spoiler-dataset)
+* downsample data based on similarity of reviews/use unsupervised classification to group reviews
+* genre specific spoiler detection
+
 ## Table of Contents
 * __data_preparation.ipynb__: Jupyter lab notebook containing infromation on combining data from different tables, some basic word frequency analyses and unsupervised classification of a random subset of reviews
 * __text_features_and_processing.ipynb__: Jupyter lab notebook containing information on tetx processing and analyses of text features
