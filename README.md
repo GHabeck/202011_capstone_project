@@ -26,7 +26,7 @@ Besides count and tfidf vectorization we also tested word vectors for classifica
 Due to limited time we could only start text classification using a recurrent neural network. While we were able to set up a RNN, this model overfits on training data and did not yield better results. 
 
 The following strategies might be used to improve the models:
-* collect more spoiler texts (e.g. IMDB [spoiler dataset](https://www.kaggle.com/rmisra/imdb-spoiler-dataset)
+* collect more spoiler texts (e.g. IMDB [spoiler dataset](https://www.kaggle.com/rmisra/imdb-spoiler-dataset))
 * downsample data based on similarity of reviews/use unsupervised classification to group reviews
 * genre specific spoiler detection
 * combine text and metadata
